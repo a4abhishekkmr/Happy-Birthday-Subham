@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Happy Birthday</title>
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"> -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href = "style.css" rel = "stylesheet" type = "text/css">
+	<link rel = "stylesheet" type = "text/css" href = "library/myswiper/swiper.css">
+	<script type = "text/javascript" src = "library/myswiper/swiper.js"></script>
+
+</head>
+<body>
+
+	<div class = "main">
+		<div class = "heading">
+			<h1 id="C1">HAPPY BIRTHDAY</h1>
+			<h1>SUBHAM</h1>
+		</div>
+
+	<span class = "top">
+		<img src = "img/Spring Flowers Background   Wallpaper High Definition High Quality.jpeg">
+	</span>
+
+	<span class = "birthday_image">
+		<img id = "banner_left" src = "img/decorate.png">
+		<img id = "banner_right" src = "img/decoration items.jpg">
+		<!-- <img id = "birthday_image" src = "img/DSC_2195.JPG"> -->
+		<!-- <img src = "img/IMG_20190507_233245.jpg"> -->
+		<!-- <img src = "img/DSC_2151.JPG"> -->
+		<img id = "birthday_image" src = "img/main.jpg">
+	</span>
+
+	<div class = "birthday_cake">
+		<img src = "img/birthday-cake-with-candles.jpg">
+	</div>
+
+	<div class = "birthday_wish">
+		<img src = "img/happy_birthday.png">
+	</div>
+
+
+	<div class = "box_body">
+		<div class="box">
+			<i class="fa fa-quote-left fa2" aria-hidden="true"></i>
+			<div class="text">
+				<div>
+					<i class="fa fa-quote-right fa1" aria-hidden="true"></i>
+
+					<h1>Happy Birthday</h1>
+					<p>🎉I wish you a very very happy birthday🎂🎁. Hope this birthday is as special as you are.	May all of your dreams come true.🎊<br>
+					 🍾I wish you on your birthday, whatever you ask may you receive, whatever you seek may you find, whatever you wish may it be fulfilled on your birthday.🎁<br>
+					 Thanks for being such a great friend. Hope this birthday is filled with special things for you... Not just today, but all year through.
+						<br><br>
+						<span class = "footer">- Your Brother</span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class = "timeline">
+		<h3>The Brief timeline</h3>
+	</div>
+	<!-- content for swiper.js starts -->
+	<div class="swiper-container">
+	    <div class="swiper-wrapper">
+	    	<div class="swiper-slide">
+				<div class = "imgBx">
+					<img src = "img/2.jpg">
+				</div>
+		<!-- 		<div class = "details">
+					<h3>John Doe<br><span>Web Designer</span></h3>
+				</div> -->
+			</div>
+			<div class="swiper-slide">
+				<div class = "imgBx">
+					<img src = "img/3.jpg">
+				</div>
+			<!-- 	<div class = "details">
+					<h3>John Doe<br><span>Web Designer</span></h3>
+				</div> -->
+			</div>
+			<div class="swiper-slide">
+				<div class = "imgBx">
+					<img src = "img/1.jpg" id = "myimg">
+				</div>
+		<!-- 		<div class = "details">
+					<h3>John Doe<br><span>Web Designer</span></h3>
+				</div> -->
+			</div>
+			<div class="swiper-slide">
+				<div class = "imgBx">
+					<img src = "img/4.jpg">
+				</div>
+			<!-- 	<div class = "details">
+					<h3>John Doe<br><span>Web Designer</span></h3>
+				</div> -->
+			</div>
+			<div class="swiper-slide">
+				<div class = "imgBx">
+					<img src = "img/5.jpg">
+				</div>
+			<!-- 	<div class = "details">
+					<h3>John Doe<br><span>Web Designer</span></h3>
+				</div> -->
+			</div>
+
+			<div class="swiper-slide">
+				<div class = "imgBx">
+					<img src = "img/7.jpg">
+				</div>
+				<!-- <div class = "details">
+					<h3>John Doe<br><span>Web Designer</span></h3>
+				</div> -->
+			</div>
+			<div class="swiper-slide">
+				<div class = "imgBx">
+					<img src = "img/1.jpg">
+				</div>
+				<!-- <div class = "details">
+					<h3>John Doe<br><span>Web Designer</span></h3>
+				</div> -->
+			</div>
+			<div class="swiper-slide">
+				<div class = "imgBx">
+					<img src = "img/6.jpg">
+				</div>
+			<!-- 	<div class = "details">
+					<h3>John Doe<br><span>Web Designer</span></h3>
+			 </div>-->
+			</div>
+			<div class="swiper-slide">
+				<div class = "imgBx">
+					<img src = "img/2.jpg">
+				</div>
+				<!-- <div class = "details">
+					<h3>John Doe<br><span>Web Designer</span></h3>
+				</div> -->
+			</div>
+			<div class="swiper-slide">
+				<div class = "imgBx">
+					<img src = "img/3.jpg">
+				</div>
+				<!-- <div class = "details">
+					<h3>John Doe<br><span>Web Designer</span></h3>
+				</div> -->
+			</div>
+	    </div>
+	   <!-- Add Pagination -->
+    	<div class="swiper-pagination"></div>
+  	</div>
+  	<!-- Initialize Swiper -->
+
+ <script>
+    var swiper = new Swiper('.swiper-container', {
+     	effect: 'coverflow',
+		  grabCursor: true,
+		centeredSlides: true,
+		slidesPerView: 'auto',
+		coverflowEffect: {
+	    	rotate: 75,
+	    	stretch: 2,
+	    	depth: 200,
+	    	modifier: 2,
+	    	slideShadows : true,
+  		},
+      	pagination: {
+        el: '.swiper-pagination',
+      	},
+    });
+ </script>
+
+
+<p> scroll the images</p>
+
+
+	<div id="footer">
+		Copyright &copy; Abhishek
+	</div>
+
+
+</div>
+<!-- content for particle.ja -->
+	<section id = "particles-js"></section>
+	<script src = "library/particles.js" type = "text/javascript"></script>
+	<script src = "library/app.js" type = "text/javascript"></script>
+
+	<audio autoplay>
+  <source src="audio/Happy_Birthday_song.mp3" type="audio/mp3">
+  <source src="audio/Happy_Birthday_song.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+
+<br><br>
+<iframe width="1200" height="720"
+src="https://www.youtube.com/embed/jXjlZqSQLKw">
+</iframe>
+
+<br>
+<br>
+<p><a href="#C1">Jump to Top</a></p>
+<!-- content for swiper.js -->
+</body>
+</html>
